@@ -1,0 +1,29 @@
+.note-card-content {
+  margin: auto;
+  padding: 10px 20px 30px 20px;
+  border-radius: 30px;
+  box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+}
+.note-card-content p {
+  padding: 20px;
+  max-width: 400px;
+  height: 300px;
+  overflow-y: scroll;
+}
+.note-card-content h2 {
+  text-align: center;
+}
+.note-card-content p::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgb(221, 221, 221);
+}
+.note-card-content p::-webkit-scrollbar-thumb {
+  background-color: rgb(159, 158, 158);
+}
+.note-card-content p::-webkit-scrollbar-track {
+  background-color: rgb(206, 206, 206);
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}

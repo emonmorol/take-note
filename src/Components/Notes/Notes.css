@@ -1,0 +1,15 @@
+.notes-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px 100px;
+}
+.notes-title {
+  text-align: center;
+}
+@media screen and (max-width: 640px) {
+  .notes-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+  }
+}

@@ -1,0 +1,57 @@
+.form-container {
+  width: 100%;
+  background-color: #18dcff65;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 40%;
+  margin: auto;
+}
+.form input,
+textarea {
+  width: 90%;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  border-radius: 1rem;
+  overflow-y: scroll;
+}
+.form textarea::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgb(221, 221, 221);
+}
+.form textarea::-webkit-scrollbar-thumb {
+  background-color: rgb(159, 158, 158);
+}
+.form textarea::-webkit-scrollbar-track {
+  background-color: rgb(206, 206, 206);
+}
+.input-content {
+  position: relative;
+}
+.input-content label {
+  background-color: white;
+  font-size: 12px;
+  padding: 0px 1rem;
+  border-radius: 20rem;
+  position: absolute;
+  top: -0.5rem;
+  left: 2rem;
+}
+.button {
+  width: 100%;
+  margin: auto;
+  padding: 10px 0px;
+  background: #4b4b4b;
+  color: white;
+  border-radius: 999px;
+}
+
+@media screen and (max-width: 640px) {
+  .form {
+    width: 90%;
+  }
+}
