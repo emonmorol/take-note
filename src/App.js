@@ -5,7 +5,7 @@ import NoteSubmit from "./Components/NoteSubmit/NoteSubmit";
 function App() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <NoteSubmit />
       <Notes />
     </div>

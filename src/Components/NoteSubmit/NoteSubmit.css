@@ -6,6 +6,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 .form {
   width: 40%;
