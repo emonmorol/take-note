@@ -11,7 +11,7 @@ const NoteSubmit = () => {
   } = useForm();
   const onSubmit = (data) => {
     console.log(data);
-    fetch("http://localhost:5000/notes", {
+    fetch("https://my-notes-md123.herokuapp.com/notes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

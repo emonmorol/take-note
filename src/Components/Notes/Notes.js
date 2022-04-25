@@ -4,14 +4,14 @@ import "./Notes.css";
 const Notes = () => {
   const [notes, setNotes] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/notes")
+    fetch("https://my-notes-md123.herokuapp.com/notes")
       .then((res) => res.json())
       .then((data) => setNotes(data));
   }, [notes]);
   const handleDelete = (id) => {
     const proceed = window.confirm("Are You Sure?? You want to delete?");
     if (proceed) {
-      const url = `http://localhost:5000/notes/${id}`;
+      const url = `https://my-notes-md123.herokuapp.com/notes/${id}`;
       fetch(url, {
         method: "DELETE",
       })
